@@ -1,0 +1,154 @@
+.activity{position: relative;padding: 30px;width: 100%;}
+.activity ul{list-style: none; position: relative;padding: 0;}
+.activity img{width: 30px;z-index: 1;position: relative;
+padding: 5px;margin-right: 13px;margin-top: 10px;}
+.border1{border-radius: 50%;box-shadow: 0 2px 12px 0 rgba(0,0,0,.3);
+width: 55px;height: 55px;z-index: 1;background: #fff;position: relative;}
+.border1:hover {
+  background: #e1edff;
+}
+.v-line {
+  margin-right: 25%;
+height: 120px;
+margin-top: 35px;
+border-left: 1px solid #ccc;
+position: absolute;
+}
+.v1-line {
+width: 1px;
+background: #ccc;
+left: 25%;
+top: 35px;
+height: 115px;
+position: absolute;
+}
+.v2-line {
+height: 50%;
+margin-top: 0;
+background: #ccc;
+position: absolute;
+bottom: 75px;
+right: 55px;
+width: 1px;
+}
+.h-line {
+width: 100%;
+background: #ccc;
+height: 1px;
+float: left;
+position: absolute;
+top: 35px;
+}
+
+.h2-line {
+width: 100%;
+border-bottom: 1px solid #ccc;
+text-align: center;
+position: absolute;
+top: 35px;
+left: 0;
+}
+.h4-line {
+width: 92%;
+background: #ccc;
+height: 1px;
+position: absolute;
+bottom: 64px;
+}
+.iconbx{
+position: absolute;
+left: 235px;
+top: 24px;
+z-index: 1;
+color: #444;
+font-size: 15px;
+font-weight: bold !important;
+background: #fff;
+width: 0;
+}
+.iconbx1{
+position: absolute;
+right: 80px;
+top: 24px;
+z-index: 1;
+color: #444;
+font-size: 15px;
+font-weight: bold !important;
+background: #fff;
+width: 0;
+}
+.iconbx2{
+position: absolute;
+right: 48px;
+bottom: 111px;
+z-index: 1;
+color: #444;
+font-size: 15px;
+font-weight: bold !important;
+background: #fff;
+width: 0;
+}
+.iconbx3{
+position: absolute;
+left: 100px;
+bottom: 53px;
+color: #444;
+font-size: 15px;
+font-weight: bold !important;
+background: #fff;
+width: 3%;
+}
+.iconbx4{
+position: absolute;
+left: 90px;
+bottom: 8px;
+color: #444;
+font-size: 15px;
+font-weight: bold !important;
+background: #fff;
+width: 0;
+}
+.border1 p {
+font-size: 10px;
+display: block ruby;
+margin-top: 20px;
+white-space: nowrap;
+}
+
+
+
+@media screen and (max-width:1280px) {
+
+
+  
+}
+
+@media only screen and (max-width: 1199px) {
+ 
+}
+
+}
+
+@media screen and (max-width:1024px) {
+ 
+
+
+}
+
+@media screen and (max-width:991px) {
+  .iconbx {left: 100px;}
+ .iconbx4 {left: 20px;}
+  }
+
+@media screen and (max-width:767px) {
+ .iconbx {left: 100px;}
+ .iconbx4 {left: 27px;}
+}
+
+@media screen and (max-width:620px) {
+
+}
+
+@media screen and (max-width:520px) {
+
+}
